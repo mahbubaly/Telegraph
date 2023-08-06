@@ -97,9 +97,9 @@ const Messaging = () => {
 
             {/*  */}
             <div>
-                <section className="grid grid-cols-1 mt-14 lg:grid-cols-2 gap-4">
+                <section className="md:flex justify-around mt-14  gap-4">
                     <div className=" px-4 py-10 lg:flex  ">
-                        <div className="xl:ml-16 max-w-xl ">
+                        <div className=" max-w-xl ">
                             <h1 className="text-3xl font-bold  ">
                                 Sharing Cool Stuff With Your Community
 
@@ -120,7 +120,7 @@ const Messaging = () => {
 
 
 
-                        <div className="card lg:w-64 bg-base-100 shadow-xl">
+                        <div className="card lg:w-60 bg-base-100 shadow-xl">
                             <div className="card-body">
                                 <BsShieldFillCheck className='w-10 h-10 text-primary' />
                                 <h1 className='text-lg font-semibold'>Security by Default</h1>
@@ -128,7 +128,7 @@ const Messaging = () => {
 
                             </div>
                         </div>
-                        <div className="card lg:w-64 lg:ml-[260px] xl:ml-[300px] lg:-mt-12  my-3 bg-base-100 shadow-xl">
+                        <div className="card lg:w-60 lg:ml-[250px]  lg:-mt-16  my-3 bg-base-100 shadow-xl">
                             <div className="card-body">
                                 <SiStackshare className='w-8 h-8 text-primary' />
                                 <h1 className='text-lg font-semibold'>Document Share</h1>
@@ -137,7 +137,7 @@ const Messaging = () => {
                             </div>
                         </div>
 
-                        <div className="card lg:w-64 lg:-mt-40 bg-base-100 shadow-xl">
+                        <div className="card lg:w-60 lg:-mt-40 bg-base-100 shadow-xl">
                             <div className="card-body">
                                 <AiFillMessage className='w-10 h-10 text-primary' />
                                 <h1 className='text-lg font-semibold'>Say What's On Your Mind</h1>
