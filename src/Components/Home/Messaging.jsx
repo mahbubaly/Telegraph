@@ -18,10 +18,10 @@ const Messaging = () => {
 
                 <div className='p-5'>
                     <img src={oval} alt="" />
-                    <img src={img} alt="" className='lg:ml-16 z-40  lg:-mt-[20%] md:ml-10 ml-8 md:-mt-[40%]  -mt-[50%]' />
+                    <img src={img} alt="" className='lg:ml-16 z-40  lg:-mt-[30%] xl:-mt-[20%] md:ml-10 ml-8 md:-mt-[40%]  -mt-[50%]' />
 
 
-                    <div className='lg:-mt-[40%] md:block hidden xl:-mt-[30%] -mt-[50%] ml-0 lg:ml-52 text-black z-50 relative'>
+                    <div className='lg:-mt-[44%] lg:ml-20 md:block hidden xl:-mt-[30%] -mt-[50%] ml-0  xl:ml-52 text-black z-50 relative'>
                         <div className='flex  border-2 z-40 bg-white   gap-2 items-center rounded-lg p-2 w-[390px] '>
                             <img src={wife} className='rounded-[50%] w-16' alt="" />
                             <div>
@@ -128,7 +128,7 @@ const Messaging = () => {
 
                             </div>
                         </div>
-                        <div className="card lg:w-64 lg:ml-[300px] lg:-mt-12  my-3 bg-base-100 shadow-xl">
+                        <div className="card lg:w-64 lg:ml-[260px] xl:ml-[300px] lg:-mt-12  my-3 bg-base-100 shadow-xl">
                             <div className="card-body">
                                 <SiStackshare className='w-8 h-8 text-primary' />
                                 <h1 className='text-lg font-semibold'>Document Share</h1>
@@ -156,10 +156,10 @@ const Messaging = () => {
                     <div className='flex   lg:justify-end 2xl:justify-center '>
                         <img src={oval} alt="" className='' />
                     </div>
-                    <img src={women} alt="" className='lg:ml-16   lg:-mt-[25%] md:ml-10  md:-mt-[40%]  -mt-[45%]' />
+                    <img src={women} alt="" className='lg:ml-10 lg:-mt-[40%] xl:ml-32  xl:-mt-[25%] md:ml-10  md:-mt-[40%]  -mt-[45%]' />
 
 
-                    <div className='lg:-mt-[55%] 2xl:-mt-[40%] -mt-[50%] ml-44 text-black z-50 relative'>
+                    <div className='lg:-mt-[60%] xl:-mt-[40%] 2xl:-mt-[35%] -mt-[50%] lg:ml-44 xl:ml-[220px]'>
                         <img src={roundBg} className='' alt="" />
                     </div>
                 </div>

@@ -9,9 +9,9 @@ const Home = () => {
     return (
         <>
             <div className='max-w-screen-[1920px] lg:w-screen-2xl mx-auto'>
-                <div className='flex justify-between lg:pt-9 p-4 lg:px-16'>
+                <div className='flex justify-between xl:pt-9 p-4 xl:px-16'>
                     <h1 className='text-primary font-bold text-xl '>Telegraph</h1>
-                    <div className='lg:pr-20'>
+                    <div className='xl:pr-20'>
                         <button href='#' className='btn  bg-primary text-white rounded-3xl font-bold'>Try Beta</button>
 
                     </div>
@@ -70,10 +70,11 @@ const Home = () => {
 
 
 
-                <div className='flex justify-center'>
-                    <div className='grid md:grid-cols-3 lg:p-0 p-5  grid-cols-1 gap-10  mt-6  lg:mt-10'>
 
-                        <div className="card lg:w-96 bg-base-100 shadow-xl">
+                <div className='lg:flex justify-center'>
+                    <div className='grid md:grid-cols-3 lg:p-0 p-5   grid-cols-1 gap-10  mt-6  lg:mt-10'>
+
+                        <div className="card xl:w-96 bg-base-100 shadow-xl">
                             <div className="card-body">
                                 <h2 className="card-title"><AiFillAndroid className='w-10 h-10 text-primary' /> </h2>
                                 <h1 className='text-lg font-semibold'>Android</h1>
@@ -89,7 +90,7 @@ const Home = () => {
                         </div>
 
 
-                        <div className="card lg:w-96 bg-base-100 shadow-xl">
+                        <div className="card xl:w-96 bg-base-100 shadow-xl">
                             <div className="card-body">
                                 <h2 className="card-title"><BsApple className='w-10 h-10 text-primary' /> </h2>
                                 <h1 className='text-lg font-semibold'>iPhone</h1>
@@ -103,7 +104,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="card lg:w-96 bg-base-100 shadow-xl">
+                        <div className="card xl:w-96 bg-base-100 shadow-xl">
                             <div className="card-body">
                                 <h2 className="card-title"> <AiOutlineMacCommand className='w-10 h-10 text-primary' /> <BsWindows className='w-10 h-10 text-primary' /> </h2>
                                 <h1 className='text-lg font-semibold'>Mac or Windows</h1>
@@ -117,6 +118,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
+
 
                     </div>
                 </div>
