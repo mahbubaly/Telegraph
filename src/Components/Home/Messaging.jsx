@@ -202,7 +202,48 @@ const Messaging = () => {
             {/* Footer */}
 
 
-           
+            <section className="bg-gray-900 rounded-2xl text-white lg:mx-4">
+                <div
+                    className="mx-auto max-w-screen-[2160px] px-4 py-32   lg:items-center"
+                >
+                    <div className=" text-center">
+                        <h1
+                            className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
+                        >
+                            Let’s Start With Quick App
+
+                        </h1>
+
+                        <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo
+                            tenetur fuga ducimus numquam ea!
+                        </p>
+
+                        <div className="mt-8 flex flex-wrap justify-center gap-4">
+                            <a
+                                className="block w-full rounded border  bg-primary px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+                                href="/get-started"
+                            >
+                                Request For Early Access
+                            </a>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+            <div className='md:flex my-5 lg:mt-[80px] justify-between p-2 text-[#00194A]'>
+                <div>
+                    <p className='text-lg font-bold'>© Telegraph. 2020 — All rights reserved.</p>
+                </div>
+                <div className='flex gap-6 lg:justify-start justify-center text-[#00194A]'>
+                    <p>Twitter</p>
+                    <p>Instagram</p>
+                    <p>Facebook</p>
+                </div>
+            </div>
 
 
 
